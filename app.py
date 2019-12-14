@@ -335,4 +335,4 @@ def task_status(task_id):
     return jsonify(return_value), return_value['status']
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
